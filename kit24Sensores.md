@@ -1,14 +1,36 @@
 [Bricogeek] me ha enviado un
-[Octopus Brick - Kit de 24 sensores para Arduino](http://tienda.bricogeek.com/kits-arduino/830-octopus-brick-kit-de-24-sensores-para-arduino.html) para que lo pueda probar.
+[Octopus Brick - Kit de 24 sensores para Arduino de Elekfreaks](http://tienda.bricogeek.com/kits-arduino/830-octopus-brick-kit-de-24-sensores-para-arduino.html) para que lo pueda probar.
 
 ![kit24](./images/IMG_20160531_143103.jpg)
 
 
 Un primer vistazo nos permite ver que se trata de un kit serio, nada que ver con los kits con unos pocos leds y pulsadores que solemos ver.
 
-Se trata de un kit de 24 components con un sistema de conexión de 3 cables que nos facilita enormemente el uso. Este tipo de conexión se adapta perfectamente a placas que dispone de sistema conenxiones de 3-pines, como la ~~Freaduino~~ y Zum y que permite hacer montajes complejos sin usar una protoboard.
+Se trata de un kit de 24 components con un sistema de conexión de 3 cables que nos facilita enormemente el uso. Este tipo de conexión se adapta perfectamente a placas que dispone de sistema conenexiones de 3-pines, como la ~~Freaduino~~ y Zum y que permite hacer montajes complejos sin usar una protoboard.
 
-El kit además de los sensores incluye un shield que nos permite usar este sistema de conexión en placas Arduino _normales_
+La caja es robusta, los sensores caben fácilmente (y sin tener que jugar al tetriss para colocarlos) lo que es de agradecer y con algo de espacio libre (hasta he podido meter más claves, un powerbank y un arduino UNO con su cable USM)
+
+![IMG_20160531_143058.jpg](./images/IMG_20160531_143058.jpg)
+
+## Shield
+
+El kit incluye un shield  que  nos permite:
+* Usar este sistema de conexión de 3 hilos en placas Arduino _normales_ de tipo Arduino UNO
+* Conectar una placa XBee/Zigbee
+* Usar una alimentación exterior o la de Arduino, por medio de conectores externos y un selector
+* Conector de tipo cable ~~¿FTDI o SPI?~~
+
+![shield](./images/IMG_20160531_143235.jpg)
+
+## Componentes
+
+![shield](./images/IMG_20160531_143245.jpg)
+![shield](./images/IMG_20160531_143306.jpg)
+![shield](./images/IMG_20160531_143313.jpg)
+![cables](./images/IMG_20160531_143337.jpg)
+![shield](./images/
+  ![shield](./images/
+    ![shield](./images/
 
 1 x Octopus Sensor de humedad del suelo
 1 x Octopus Potenciómetro lineal tipo Slider
@@ -37,10 +59,11 @@ El kit además de los sensores incluye un shield que nos permite usar este siste
 
 (Los enlaces a la documentación y ejemplos están en la [página del producto en bricogeek](http://tienda.bricogeek.com/kits-arduino/830-octopus-brick-kit-de-24-sensores-para-arduino.html))
 
-Echo en falta:
-* Más cables de 3 hilos
-* Sensor de temperatura y humedad tipo DHT22
-
 ## Resumen
 
-Un excelente kit con una colección muy interesante
+Un excelente kit con una colección muy interesante de 24 sensores que nos permite conectar directamente a nuestra Arduino UNO de una manera muy sencilla
+
+Por ponerle algún pero, echo en falta:
+* Más cables de 3 hilos
+* Sensor de temperatura y humedad tipo DHT22, es un clásico de este tipo de proyectos
+* Una pila para el RTC
