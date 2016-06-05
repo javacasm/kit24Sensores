@@ -1,4 +1,14 @@
-[Octopus Brick - Kit de 24 sensores para Arduino](http://tienda.bricogeek.com/kits-arduino/830-octopus-brick-kit-de-24-sensores-para-arduino.html)
+[Bricogeek] me ha enviado un
+[Octopus Brick - Kit de 24 sensores para Arduino](http://tienda.bricogeek.com/kits-arduino/830-octopus-brick-kit-de-24-sensores-para-arduino.html) para que lo pueda probar.
+
+![kit24](./images/IMG_20160531_143103.jpg)
+
+
+Un primer vistazo nos permite ver que se trata de un kit serio, nada que ver con los kits con unos pocos leds y pulsadores que solemos ver.
+
+Se trata de un kit de 24 components con un sistema de conexión de 3 cables que nos facilita enormemente el uso. Este tipo de conexión se adapta perfectamente a placas que dispone de sistema conenxiones de 3-pines, como la ~~Freaduino~~ y Zum y que permite hacer montajes complejos sin usar una protoboard.
+
+El kit además de los sensores incluye un shield que nos permite usar este sistema de conexión en placas Arduino _normales_
 
 1 x Octopus Sensor de humedad del suelo
 1 x Octopus Potenciómetro lineal tipo Slider
