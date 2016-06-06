@@ -9,4 +9,7 @@
 * Sensor PIR
 * Pulsadores de encendido/apagado
 * Configuración de clave
-*
+
+## Detector de terremotos
+* Detector de vibraciones
+* Zumbador
