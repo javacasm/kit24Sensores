@@ -40,56 +40,39 @@ Estos son todos los componentes del kit:
 
 Veamos en detalle los sensores
 
-![shield](./images/IMG_20160531_143245.jpg)
+![RTC](./images/IMG_20160531_143245.jpg)|
 
 
-* [Octopus Reloj en tiempo real RTC](http://www.elecfreaks.com/wiki/index.php?title=Octopus_Real-time_Clock)
-* Octopus pulsador digital
-* [Octopus Sensor PIR](http://www.elecfreaks.com/wiki/index.php?title=Octopus_PIR_sensor_Brick)
-* Octopus zumbador OBPB01
-
-* [Octopus Receptor infrarojo](http://www.elecfreaks.com/wiki/index.php?title=Octopus_Infrared_Receiver_Sensor)
-
-
+|[Octopus Reloj en tiempo real RTC](http://www.elecfreaks.com/wiki/index.php?title=Octopus_Real-time_Clock)|Octopus pulsador digital|[Octopus Sensor PIR](http://www.elecfreaks.com/wiki/index.php?title=Octopus_PIR_sensor_Brick)|
+|-|-|
+|Octopus zumbador OBPB01|Octopus Sensor de inclinación|[Octopus Receptor infrarojo](http://www.elecfreaks.com/wiki/index.php?title=Octopus_Infrared_Receiver_Sensor)|
 
 ![shield](./images/IMG_20160531_143306.jpg)
 
-* [Octopus Potenciómetro lineal tipo Slide](http://www.elecfreaks.com/wiki/index.php?title=Octopus_Linear_Slider_Potentiometer_Brick)
-* Octopus Sensor de humo MQ-5
-* Octopus Sensor analógico de temperatura
-
-* Octupus relé
-* [Octopus Encoder OBARot](http://www.elecfreaks.com/wiki/index.php?title=Octopus_Analog_Rotation_Brick)
-
-* Octopus sensor de luz analógico LDR
+|[Octopus Potenciómetro lineal tipo Slide](http://www.elecfreaks.com/wiki/index.php?title=Octopus_Linear_Slider_Potentiometer_Brick)|
+|--|--|
+|[Octopus Sensor de gases MQ-5](http://www.elecfreaks.com/wiki/index.php?title=Octopus_Smoke_Sensor_MQ-2/MQ-5_Brick)|Octopus Sensor analógico de temperatura|
+|[Octopus detector de vibraciones OBVD01](http://www.elecfreaks.com/wiki/index.php?title=Octopus_Vibration_Detection_Brick)|Octupus relé|
+|[Octopus Encoder OBARot](http://www.elecfreaks.com/wiki/index.php?title=Octopus_Analog_Rotation_Brick)|Octopus sensor de luz analógico LDR|
 
 ![shield](./images/IMG_20160531_143356.jpg)
 
-* [Octopus Sensor de sonido](http://www.elecfreaks.com/wiki/index.php?title=Octopus_Sound_Sensor)
-* Octopus Sensor de luvia
-* Octopus Compas digital de 3 ejes
-* [Octopus Sensor de humedad del suelo](http://www.elecfreaks.com/wiki/index.php?title=Octopus_Soil_Moisture_Sensor_Brick)
-* [Octopus Emisor/Receptor IR TCRT5000](http://www.elecfreaks.com/wiki/index.php?title=Octopus_Hant_Sensor)
-* Octopus encoder OBEncoder
+|[Octopus Sensor de luvia](http://www.elecfreaks.com/wiki/index.php?title=Octopus_Rain-Steam_Sensor)|[Octopus Sensor de humedad del suelo](http://www.elecfreaks.com/wiki/index.php?title=Octopus_Soil_Moisture_Sensor_Brick)|Octopus encoder OBEncoder|
+|--|--|--|
+|[Octopus Sensor de sonido](http://www.elecfreaks.com/wiki/index.php?title=Octopus_Sound_Sensor)|[Octopus Compás digital de 3 ejes](http://www.elecfreaks.com/wiki/index.php?title=Octopus_3-Axis_Digital_Compass_Sensor)|[Octopus Emisor/Receptor IR TCRT5000](http://www.elecfreaks.com/wiki/index.php?title=Octopus_Hant_Sensor)|
 
 ![shield](./images/IMG_20160531_143400.jpg)
 
-* Octopus LED Piranha
-* Octopus LED 5mm Brick
-* [Octopus 0.36'' 7 segmentos (4 dígitos)](http://www.elecfreaks.com/wiki/index.php?title=Octopus_0.36%22_Segment_LED_Brick) que necesita sólo 2 hilos para controlarse
-* [Octopus Motor](http://www.elecfreaks.com/wiki/index.php?title=Octopus_Motor_Brick con una graciosa hélice de plástico
-
-
-
-
-1 x Octopus Sensor de inclinación
-1 x Octopus detector de vibraciones OBVD01
+|[Octopus Motor](http://www.elecfreaks.com/wiki/index.php?title=Octopus_Motor_Brick) con una graciosa hélice de plástico||
+|--|--|
+|[Octopus 0.36'' 7 segmentos (4 dígitos)](http://www.elecfreaks.com/wiki/index.php?title=Octopus_0.36%22_Segment_LED_Brick) que necesita sólo 2 hilos para controlarse|Octopus LED 5mm Brick|
+|Octopus LED Piranha||
 
 
 
 ![shield](./images/IMG_20160531_143235.jpg)
 
-* Shield de conexiones Sensor Shield con conexión para XBee
+* [Shield de conexiones](./SensorShield.md) "Sensor Shield" con conexión para XBee
 
 
 ![cables](./images/IMG_20160531_143337.jpg)
@@ -100,6 +83,11 @@ Veamos en detalle los sensores
 
 
 (Los enlaces a la documentación y ejemplos están en la [página del producto en bricogeek](http://tienda.bricogeek.com/kits-arduino/830-octopus-brick-kit-de-24-sensores-para-arduino.html))
+
+
+## [Proyectos](./proyectos.md)
+
+## [Ejemplos](./Ejemplos.md)
 
 ## Resumen
 
