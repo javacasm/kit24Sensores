@@ -43,7 +43,7 @@ Veamos en detalle los sensores
 ![RTC](./images/IMG_20160531_143245.jpg)|
 
 
-|[Octopus Reloj en tiempo real RTC](http://www.elecfreaks.com/wiki/index.php?title=Octopus_Real-time_Clock)|Octopus pulsador digital|[Octopus Sensor PIR](http://www.elecfreaks.com/wiki/index.php?title=Octopus_PIR_sensor_Brick)|
+|[Octopus Reloj en tiempo real RTC](http://www.elecfreaks.com/wiki/index.php?title=Octopus_Real-time_Clock)|[Octopus pulsador digital](http://www.elecfreaks.com/wiki/index.php?title=Octopus_Digital_PushButton_Brick)|[Octopus Sensor PIR](http://www.elecfreaks.com/wiki/index.php?title=Octopus_PIR_sensor_Brick)|
 |-|-|
 |[Octopus zumbador OBPB01](http://www.elecfreaks.com/wiki/index.php?title=Octopus_Passive_buzzer_Brick)|Octopus Sensor de inclinación|[Octopus Receptor infrarojo](http://www.elecfreaks.com/wiki/index.php?title=Octopus_Infrared_Receiver_Sensor)|
 
@@ -52,8 +52,8 @@ Veamos en detalle los sensores
 |[Octopus Potenciómetro lineal tipo Slide](http://www.elecfreaks.com/wiki/index.php?title=Octopus_Linear_Slider_Potentiometer_Brick)|
 |--|--|
 |[Octopus Sensor de gases MQ-5](http://www.elecfreaks.com/wiki/index.php?title=Octopus_Smoke_Sensor_MQ-2/MQ-5_Brick)|Octopus Sensor analógico de temperatura|
-|[Octopus detector de vibraciones OBVD01](http://www.elecfreaks.com/wiki/index.php?title=Octopus_Vibration_Detection_Brick)|Octupus relé|
-|[Octopus Encoder OBARot](http://www.elecfreaks.com/wiki/index.php?title=Octopus_Analog_Rotation_Brick)|Octopus sensor de luz analógico LDR|
+|[Octopus detector de vibraciones OBVD01](http://www.elecfreaks.com/wiki/index.php?title=Octopus_Vibration_Detection_Brick)|[Octupus relé](http://www.elecfreaks.com/wiki/index.php?title=Octopus_1Channel_Relay)|
+|[Octopus Encoder OBARot](http://www.elecfreaks.com/wiki/index.php?title=Octopus_Analog_Rotation_Brick)|[Octopus sensor de luz analógico LDR](http://www.elecfreaks.com/wiki/index.php?title=Octopus_Analog_Photocell_Brick)|
 
 ![shield](./images/IMG_20160531_143356.jpg)
 
@@ -65,14 +65,14 @@ Veamos en detalle los sensores
 
 |[Octopus Motor](http://www.elecfreaks.com/wiki/index.php?title=Octopus_Motor_Brick) con una graciosa hélice de plástico||
 |--|--|
-|[Octopus 0.36'' 7 segmentos (4 dígitos)](http://www.elecfreaks.com/wiki/index.php?title=Octopus_0.36%22_Segment_LED_Brick) que necesita sólo 2 hilos para controlarse|Octopus LED 5mm Brick|
-|Octopus LED Piranha||
+|[Octopus 0.36'' 7 segmentos (4 dígitos)](http://www.elecfreaks.com/wiki/index.php?title=Octopus_0.36%22_Segment_LED_Brick) que necesita sólo 2 hilos para controlarse|[Octopus LED 5mm Brick](http://www.elecfreaks.com/wiki/index.php?title=Octopus_5mm_LED_Brick)|
+|O[ctopus LED Piranha](http://www.elecfreaks.com/wiki/index.php?title=Octopus_Piranha_LED_Brick)||
 
 
 
 ![shield](./images/IMG_20160531_143235.jpg)
 
-* [Shield de conexiones](./SensorShield.md) "Sensor Shield" con conexión para XBee
+[Shield de conexiones](./SensorShield.md) "Sensor Shield" con conexión para XBee
 
 
 ![cables](./images/IMG_20160531_143337.jpg)
