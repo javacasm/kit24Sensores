@@ -22,10 +22,13 @@ El sensor ... detecta LPG, i-butane, propane, methane ,alcohol, Hydrogen, smoke
 Alarma
 
 ## Sistema de riego
+
 * Sensor de temperatura
 * Sensor de humedad del suelo
 * Sensor de lluvia
 * Potenciómetro para indicar el nivel
+* Relé para activar el riego
+* Ventilador
 
 ## Mini-Consola
 * Mover el potenciónmetro lineal
