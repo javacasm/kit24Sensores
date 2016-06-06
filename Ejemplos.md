@@ -1,5 +1,9 @@
 # Sensores
 
+## Sensor de inclinación
+
+Es analógico
+
 ## Sensor de humo (OBMQ05)
 
 [DataSheet](http://elecfreaks.com/estore/download/EF04029-MQ5.pdf)
