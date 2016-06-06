@@ -1,4 +1,4 @@
-[Bricogeek] me ha enviado un
+[Bricogeek](http://www.bricogeek.com) me ha enviado un
 [Octopus Brick - Kit de 24 sensores para Arduino de Elekfreaks](http://tienda.bricogeek.com/kits-arduino/830-octopus-brick-kit-de-24-sensores-para-arduino.html) para que lo pueda probar.
 
 ![kit24](./images/IMG_20160531_143103.jpg)
@@ -42,45 +42,50 @@ Veamos en detalle los sensores
 
 ![shield](./images/IMG_20160531_143245.jpg)
 
-* Octopus Sensor PIR
-* Octopus Reloj en tiempo real RTC
+
+* [Octopus Reloj en tiempo real RTC](http://www.elecfreaks.com/wiki/index.php?title=Octopus_Real-time_Clock)
+* Octopus pulsador digital
+* [Octopus Sensor PIR](http://www.elecfreaks.com/wiki/index.php?title=Octopus_PIR_sensor_Brick)
+* Octopus zumbador OBPB01
+
+* [Octopus Receptor infrarojo](http://www.elecfreaks.com/wiki/index.php?title=Octopus_Infrared_Receiver_Sensor)
+
+
 
 ![shield](./images/IMG_20160531_143306.jpg)
 
-* Octopus Potenciómetro lineal tipo Slider
+* [Octopus Potenciómetro lineal tipo Slide](http://www.elecfreaks.com/wiki/index.php?title=Octopus_Linear_Slider_Potentiometer_Brick)
 * Octopus Sensor de humo MQ-5
+* Octopus Sensor analógico de temperatura
+
 * Octupus relé
+* [Octopus Encoder OBARot](http://www.elecfreaks.com/wiki/index.php?title=Octopus_Analog_Rotation_Brick)
 
+* Octopus sensor de luz analógico LDR
 
-![shield](./images/IMG_20160531_143313.jpg)
+![shield](./images/IMG_20160531_143356.jpg)
 
+* [Octopus Sensor de sonido](http://www.elecfreaks.com/wiki/index.php?title=Octopus_Sound_Sensor)
+* Octopus Sensor de luvia
+* Octopus Compas digital de 3 ejes
+* [Octopus Sensor de humedad del suelo](http://www.elecfreaks.com/wiki/index.php?title=Octopus_Soil_Moisture_Sensor_Brick)
+* [Octopus Emisor/Receptor IR TCRT5000](http://www.elecfreaks.com/wiki/index.php?title=Octopus_Hant_Sensor)
+* Octopus encoder OBEncoder
 
-![shield](./images/IMG_20160531_143058.jpg)   ![shield](./images/IMG_20160531_143337.jpg)  
-![shield](./images/IMG_20160531_143103.jpg) ![shield](./images/IMG_20160531_143227.jpg) ![shield](./images/IMG_20160531_143306.jpg)  ![shield](./images/IMG_20160531_143356.jpg)
-![shield](./images/IMG_20160531_143218.jpg)  ![shield](./images/IMG_20160531_143235.jpg)  ![shield](./images/IMG_20160531_143313.jpg)  ![shield](./images/IMG_20160531_143400.jpg)
+![shield](./images/IMG_20160531_143400.jpg)
 
 * Octopus LED Piranha
 * Octopus LED 5mm Brick
-* Octopus 0.36'' 7 segmentos (4 dígitos) que necesita sólo 2 hilos para controlarse
-*  Octopus Motor con una graciosa hélice de plástico
-1 x Octopus Sensor de humedad del suelo
-1 x Octopus Receptor infrarojo
-1 x Octopus Emisor/Receptor IR TCRT5000
-1 x Octopus Sensor de sonido
+* [Octopus 0.36'' 7 segmentos (4 dígitos)](http://www.elecfreaks.com/wiki/index.php?title=Octopus_0.36%22_Segment_LED_Brick) que necesita sólo 2 hilos para controlarse
+* [Octopus Motor](http://www.elecfreaks.com/wiki/index.php?title=Octopus_Motor_Brick con una graciosa hélice de plástico
+
+
+
+
 1 x Octopus Sensor de inclinación
-1 x Octopus Sensor analógico de temperatura
-
-
-1 x Octopus Encoder OBARot
 1 x Octopus detector de vibraciones OBVD01
 
-1 x Octopus Sensor de luvia
-1 x Octopus Compas digital de 3 ejes
 
-1 x Octopus zumbador OBPB01
-1 x Octopus encoder OBEncoder
-1 x Octopus pulsador digital
-1 x Octopus sensor de luz analógico LDR
 
 ![shield](./images/IMG_20160531_143235.jpg)
 
