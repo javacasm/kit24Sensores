@@ -15,3 +15,18 @@
 * Zumbador
 
 Conectamos el Detector de vibraciones a un pin  analógico (A0)
+
+
+## Detector de gases de caldera
+El sensor ... detecta LPG, i-butane, propane, methane ,alcohol, Hydrogen, smoke
+Alarma
+
+## Sistema de riego
+* Sensor de temperatura
+* Sensor de humedad del suelo
+* Sensor de lluvia
+* Potenciómetro para indicar el nivel
+
+## Mini-Consola
+* Mover el potenciónmetro lineal
+¿Display?
