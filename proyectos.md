@@ -10,7 +10,7 @@
 * Pulsadores de encendido/apagado
 * Configuración de clave
 
-## [Detector de terremotos]
+## Detector de terremotos
 * [Octopus detector de vibraciones OBVD01](http://www.elecfreaks.com/wiki/index.php?title=Octopus_Vibration_Detection_Brick)
 * Zumbador
 
@@ -33,3 +33,12 @@ Alarma
 ## Mini-Consola
 * Mover el potenciónmetro lineal
 ¿Display?
+
+## Reloj digital
+* Display 7 segmentos
+* RTC
+* Encoder
+
+## Visor Temperatura
+* Display 7 segmentos
+* Sensor de temperatura
