@@ -1,4 +1,4 @@
-# proyectos
+# Proyectos
 
 ## Ventilador controlado por temperatura y con configuración de temperatura de disparo
 * Motor
