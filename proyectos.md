@@ -10,6 +10,8 @@
 * Pulsadores de encendido/apagado
 * Configuración de clave
 
-## Detector de terremotos
-* Detector de vibraciones
+## [Detector de terremotos]
+* [Octopus detector de vibraciones OBVD01](http://www.elecfreaks.com/wiki/index.php?title=Octopus_Vibration_Detection_Brick)
 * Zumbador
+
+Conectamos el Detector de vibraciones a un pin  analógico (A0)
