@@ -58,15 +58,15 @@ Veamos en detalle los sensores
 ![shield](./images/IMG_20160531_143356.jpg)
 
 |[Octopus Sensor de luvia](http://www.elecfreaks.com/wiki/index.php?title=Octopus_Rain-Steam_Sensor)|[Octopus Sensor de humedad del suelo](http://www.elecfreaks.com/wiki/index.php?title=Octopus_Soil_Moisture_Sensor_Brick)|[Octopus encoder OBEncode](http://www.elecfreaks.com/wiki/index.php?title=Octopus_Rotary_Encoder_Brick)|
-|--|--|--|
+|---|---|---|
 |[Octopus Sensor de sonido](http://www.elecfreaks.com/wiki/index.php?title=Octopus_Sound_Sensor)|[Octopus Compás digital de 3 ejes](http://www.elecfreaks.com/wiki/index.php?title=Octopus_3-Axis_Digital_Compass_Sensor)|[Octopus Emisor/Receptor IR TCRT5000](http://www.elecfreaks.com/wiki/index.php?title=Octopus_Hant_Sensor)|
 
 ![shield](./images/IMG_20160531_143400.jpg)
 
 |[Octopus Motor](http://www.elecfreaks.com/wiki/index.php?title=Octopus_Motor_Brick) con una graciosa hélice de plástico||
-|--|--|
-|[Octopus 0.36'' 7 segmentos (4 dígitos)](http://www.elecfreaks.com/wiki/index.php?title=Octopus_0.36%22_Segment_LED_Brick) que necesita sólo 2 hilos para controlarse|[Octopus LED 5mm Brick](http://www.elecfreaks.com/wiki/index.php?title=Octopus_5mm_LED_Brick)|
-|O[ctopus LED Piranha](http://www.elecfreaks.com/wiki/index.php?title=Octopus_Piranha_LED_Brick)||
+|---|---|
+|[Octopus 0.36'' 7 segmentos (4 dígitos)](http://www.elecfreaks.com/wiki/index.php?title=Octopus_0.36%22_Segment_LED_Brick) control con 2 hilos|[Octopus LED 5mm Brick](http://www.elecfreaks.com/wiki/index.php?title=Octopus_5mm_LED_Brick)|
+|[Octopus LED Piranha](http://www.elecfreaks.com/wiki/index.php?title=Octopus_Piranha_LED_Brick)||
 
 
 
