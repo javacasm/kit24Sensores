@@ -91,7 +91,7 @@ Veamos en detalle los sensores
 
 ## Resumen
 
-Un excelente kit con una colección muy interesante de 24 sensores que nos permite conectar directamente a nuestra Arduino UNO de una manera muy sencilla
+Un excelente kit con una colección muy interesante de 24 componentes que nos permite conectar directamente a nuestra Arduino UNO de una manera muy sencilla
 
 Por ponerle algún pero, echo en falta:
 * Más cables de 3 hilos
