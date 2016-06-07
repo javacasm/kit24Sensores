@@ -68,8 +68,6 @@ Veamos en detalle los sensores
 |[Octopus 0.36'' 7 segmentos (4 dígitos)](http://www.elecfreaks.com/wiki/index.php?title=Octopus_0.36%22_Segment_LED_Brick) control con 2 hilos|[Octopus LED 5mm Brick](http://www.elecfreaks.com/wiki/index.php?title=Octopus_5mm_LED_Brick)|
 |[Octopus LED Piranha](http://www.elecfreaks.com/wiki/index.php?title=Octopus_Piranha_LED_Brick)||
 
-
-
 ![shield](./images/IMG_20160531_143235.jpg)
 
 [Shield de conexiones](./SensorShield.md) "Sensor Shield" con conexión para XBee
@@ -80,14 +78,16 @@ Veamos en detalle los sensores
 * 3 x Cables de 3 hilos
 * Cable de 4 hilos
 
-
-
 (Los enlaces a la documentación y ejemplos están en la [página del producto en bricogeek](http://tienda.bricogeek.com/kits-arduino/830-octopus-brick-kit-de-24-sensores-para-arduino.html))
 
 
 ## [Proyectos](./proyectos.md)
 
+En esta sección veremos algunos proyectos para realizar con este kit
+
 ## [Ejemplos](./Ejemplos.md)
+
+En "Ejemplos" reuniremos algunos fragmentos de código y detalles para usar los componentes.
 
 ## Resumen
 
