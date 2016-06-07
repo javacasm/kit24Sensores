@@ -44,12 +44,12 @@ Veamos en detalle los sensores
 
 
 |[Octopus Reloj en tiempo real RTC](http://www.elecfreaks.com/wiki/index.php?title=Octopus_Real-time_Clock)|[Octopus pulsador digital](http://www.elecfreaks.com/wiki/index.php?title=Octopus_Digital_PushButton_Brick)|[Octopus Sensor PIR](http://www.elecfreaks.com/wiki/index.php?title=Octopus_PIR_sensor_Brick)|
-|-|-|
+|-----|-----|
 |[Octopus zumbador OBPB01](http://www.elecfreaks.com/wiki/index.php?title=Octopus_Passive_buzzer_Brick)|Octopus Sensor de inclinación|[Octopus Receptor infrarojo](http://www.elecfreaks.com/wiki/index.php?title=Octopus_Infrared_Receiver_Sensor)|
 
 ![shield](./images/IMG_20160531_143306.jpg)
 
-|[Octopus Potenciómetro lineal tipo Slide](http://www.elecfreaks.com/wiki/index.php?title=Octopus_Linear_Slider_Potentiometer_Brick)|
+|[Octopus Potenciómetro lineal tipo Slide](http://www.elecfreaks.com/wiki/index.php?title=Octopus_Linear_Slider_Potentiometer_Brick)||
 |--|--|
 |[Octopus Sensor de gases MQ-5](http://www.elecfreaks.com/wiki/index.php?title=Octopus_Smoke_Sensor_MQ-2/MQ-5_Brick)|Octopus Sensor analógico de temperatura|
 |[Octopus detector de vibraciones OBVD01](http://www.elecfreaks.com/wiki/index.php?title=Octopus_Vibration_Detection_Brick)|[Octupus relé](http://www.elecfreaks.com/wiki/index.php?title=Octopus_1Channel_Relay)|
