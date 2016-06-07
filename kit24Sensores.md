@@ -44,7 +44,7 @@ Veamos en detalle los sensores
 
 
 |[Octopus Reloj en tiempo real RTC](http://www.elecfreaks.com/wiki/index.php?title=Octopus_Real-time_Clock)|[Octopus pulsador digital](http://www.elecfreaks.com/wiki/index.php?title=Octopus_Digital_PushButton_Brick)|[Octopus Sensor PIR](http://www.elecfreaks.com/wiki/index.php?title=Octopus_PIR_sensor_Brick)|
-|---|---|
+|---|---|---|
 |[Octopus zumbador OBPB01](http://www.elecfreaks.com/wiki/index.php?title=Octopus_Passive_buzzer_Brick)|Octopus Sensor de inclinación|[Octopus Receptor infrarojo](http://www.elecfreaks.com/wiki/index.php?title=Octopus_Infrared_Receiver_Sensor)|
 
 ![shield](./images/IMG_20160531_143306.jpg)
