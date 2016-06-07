@@ -93,7 +93,7 @@ Veamos en detalle los sensores
 
 Un excelente kit con una colección muy interesante de 24 componentes que nos permite conectar directamente a nuestra Arduino UNO de una manera muy sencilla
 
-Por ponerle algún pero, echo en falta:
+Por ponerle algún _pero__, echo en falta:
 * Más cables de 3 hilos
 * Sensor de temperatura y humedad tipo DHT22, es un clásico de este tipo de proyectos
 * Una pila para el RTC
