@@ -11,6 +11,7 @@ Es analógico
 [wiki](http://www.elecfreaks.com/wiki/index.php?title=Octopus_Smoke_Sensor_MQ-2/MQ-5_Brick)
 
 Es analógico
+
 ## Compás
 
     // From http://www.elecfreaks.com/wiki/index.php?title=Octopus_3-Axis_Digital_Compass_Sensor
@@ -61,6 +62,10 @@ Es analógico
 
       delay(250);
     }
+
+# Temperatura
+
+Es un sensor analógico, y parece que es un LM35 
 
 # Encoder
 
