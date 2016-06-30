@@ -6,7 +6,7 @@
 
 Un primer vistazo nos permite ver que se trata de un kit serio, nada que ver con los kits con unos pocos leds y pulsadores que solemos ver.
 
-Se trata de un kit de 24 components con un sistema de conexión de 3 cables que nos facilita enormemente el uso. Este tipo de conexión se adapta perfectamente a placas que dispone de sistema conenexiones de 3-pines, como la ~~Freaduino~~ y Zum y que permite hacer montajes complejos sin usar una protoboard.
+Se trata de un kit de 24 components con un sistema de conexión de 3 cables que nos facilita enormemente el uso. Este tipo de conexión se adapta perfectamente a placas que dispone de sistema conenexiones de 3-pines, como la Freaduino y Zum y que permite hacer montajes complejos sin usar una protoboard.
 
 ![IMG_20160531_143058.jpg](./images/IMG_20160531_143058.jpg)
 
@@ -24,7 +24,7 @@ El kit incluye un shield  que  nos permite:
 * Usar este sistema de conexión de 3 hilos en placas Arduino _normales_ de tipo Arduino UNO
 * Conectar una placa XBee/Zigbee
 * Usar una alimentación exterior o la de Arduino, por medio de conectores externos y un selector
-* Conector de tipo cable ~~¿FTDI o SPI?~~
+* Conector de tipo cable SPI
 
 ![shield](./images/IMG_20160531_143235.jpg)
 
@@ -93,7 +93,7 @@ En "Ejemplos" reuniremos algunos fragmentos de código y detalles para usar los 
 
 Un excelente kit con una colección muy interesante de 24 componentes que nos permite conectar directamente a nuestra Arduino UNO de una manera muy sencilla
 
-Por ponerle algún _pero__, echo en falta:
+Por ponerle algún _pero_, echo en falta:
 * Más cables de 3 hilos
 * Sensor de temperatura y humedad tipo DHT22, es un clásico de este tipo de proyectos
 * Una pila para el RTC
