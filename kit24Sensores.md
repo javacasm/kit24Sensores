@@ -57,7 +57,7 @@ Veamos en detalle los sensores
 
 ![shield](./images/IMG_20160531_143356.jpg)
 
-|[Octopus Sensor de luvia](http://www.elecfreaks.com/wiki/index.php?title=Octopus_Rain-Steam_Sensor)|[Octopus Sensor de humedad del suelo](http://www.elecfreaks.com/wiki/index.php?title=Octopus_Soil_Moisture_Sensor_Brick)|[Octopus encoder OBEncode](http://www.elecfreaks.com/wiki/index.php?title=Octopus_Rotary_Encoder_Brick)|
+|[Octopus Sensor de lluvia](http://www.elecfreaks.com/wiki/index.php?title=Octopus_Rain-Steam_Sensor)|[Octopus Sensor de humedad del suelo](http://www.elecfreaks.com/wiki/index.php?title=Octopus_Soil_Moisture_Sensor_Brick)|[Octopus encoder OBEncode](http://www.elecfreaks.com/wiki/index.php?title=Octopus_Rotary_Encoder_Brick)|
 |---|---|---|
 |[Octopus Sensor de sonido](http://www.elecfreaks.com/wiki/index.php?title=Octopus_Sound_Sensor)|[Octopus Compás digital de 3 ejes](http://www.elecfreaks.com/wiki/index.php?title=Octopus_3-Axis_Digital_Compass_Sensor)|[Octopus Emisor/Receptor IR TCRT5000](http://www.elecfreaks.com/wiki/index.php?title=Octopus_Hant_Sensor)|
 
