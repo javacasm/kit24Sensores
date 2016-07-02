@@ -4,7 +4,7 @@
 
 ![IMG_20160702_133714.jpg](./images/IMG_20160702_133714.jpg)
 
-Conectamos el potenciómetro en A0 (El potenciómetro lineal usa un cable de 4 hilos, de los que sólo usaremos 3) y el led en el pin 11
+Conectamos el potenciómetro en A0 (El potenciómetro lineal usa un cable de 4 hilos, de los que sólo usaremos 3, el cuarto es un led que podemos controlar, pero usaremos un led externo) y el led en el pin 11
 
 
     // Encendemos con mayor o menor intensidad un led en función del valor de un potenciómetro lineal
