@@ -1,5 +1,31 @@
 # Sensores
 
+## Controlar la intensidad de brillo de un led con un potencimetro (Led Dimmer)
+
+![IMG_20160702_133714.jpg](./images/IMG_20160702_133714.jpg)
+
+Conectamos el potenciómetro en A0 (El potenciómetro lineal usa un cable de 4 hilos, de los que sólo usaremos 3) y el led en el pin 11
+
+
+    // Encendemos con mayor o menor intensidad un led en función del valor de un potenciómetro lineal
+
+    #define pinLed 11
+
+
+    void setup() {
+      // No es necesario establecer el modo INPUT/OUTPUT para entradas analógicas o salidas PWM
+    }
+
+    void loop() {
+
+      int valorPot=analogRead(A0);
+      int valorPWM=map(valorPot,0,1023,0,255);
+
+      analogWrite(pinLed,valorPWM);
+    }
+
+[Ejemplo](./Ejemplos/LedDimmer/LedDimmer.ino)
+
 ## Sensor de inclinación
 
 Es analógico
@@ -65,7 +91,7 @@ Es analógico
 
 # Temperatura
 
-Es un sensor analógico, y parece que es un LM35 
+Es un sensor analógico, y parece que es un LM35
 
 # Encoder
 
