@@ -32,7 +32,7 @@ Alarma
 
 ## Mini-Consola
 * Mover el potenciónmetro lineal
-¿Display?
+¿Display? (https://www.youtube.com/watch?v=lVmGilUGi8A)
 
 ## Reloj digital
 * Display 7 segmentos
