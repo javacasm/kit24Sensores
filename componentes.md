@@ -1,3 +1,7 @@
+# General
+
+[Lista de componentes de elecfreaks](http://www.elecfreaks.com/wiki/index.php?title=Catalog_category)
+
 # Potenciómetro lineal
 
 Necesita 4 hilos: V+,GND, Señal y un cuarto que nos permite controlar un led que se include en la placa.
