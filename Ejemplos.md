@@ -108,6 +108,41 @@ Es un sensor analógico, y parece que es un LM35
               state=1;
     }
 
+## Sensor de sonido
+
+Sensor de sonido que compara el nivel de ruido con el potencimetro
+
+    const int SensorPin = 9;     // the number of the Sensor pin
+    const int ledPin = 13;      // the number of the led pin
+
+    // variables will change:
+    int SensorState = 0;         // variable for reading the Sensor status
+
+    void setup() {
+      // initialize the led pin as an output:
+      pinMode(ledPin, OUTPUT);      
+      // initialize the Sensor pin as an input:
+      pinMode(SensorPin, INPUT);     
+    }
+
+    void loop(){
+      // read the state of the Sensor value:
+      SensorState = digitalRead(SensorPin);
+
+      // check if the Sensor is close.
+      // if it is, the SensorState is HIGH:
+      if (SensorState == HIGH) {     
+        // turn led on:    
+        digitalWrite(ledPin, HIGH);  
+        delay(200);
+      }
+      else {
+        // turn led off:
+        digitalWrite(ledPin, LOW);
+        delay(200);
+      }
+    }
+
 ## Sensor de vibraciones
 
 Sensor analógico que mide vibraciones
