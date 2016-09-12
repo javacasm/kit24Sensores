@@ -15,6 +15,9 @@
 #include "TM1637.h"
 #define CLK 2 //pueden usarse cualquier pin
 #define DIO 3
+
+
+
 TM1637 tm1637(CLK,DIO);
 void setup()
 {
