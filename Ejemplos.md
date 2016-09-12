@@ -108,6 +108,22 @@ Es un sensor analógico, y parece que es un LM35
               state=1;
     }
 
+## Sensor de vibraciones
+
+Sensor analógico que mide vibraciones
+
+    int inputPin = A0;               
+
+
+    void setup() {
+      pinMode(inputPin, INPUT);     
+      Serial.begin(9600);
+    }
+
+    void loop(){
+      Serial.println(analogRead(inputPin));  // read input value
+    }
+
 
 ## Sensor de gases MQ2
 
