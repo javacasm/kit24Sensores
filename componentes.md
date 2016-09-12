@@ -17,13 +17,24 @@ Necesita 4 hilos: V+,GND, Señal y un cuarto que nos permite controlar un led qu
 ([ejemplo](http://elecfreaks.com/estore/download/EF4056-Paintcode.zip))
 
 
+    //  Author:Frankie.Chu
+    //  This library is free software; you can redistribute it and/or
+    //  modify it under the terms of the GNU Lesser General Public
+    //  License as published by the Free Software Foundation; either
+    //  version 2.1 of the License, or (at your option) any later version.
+    //
+    //  This library is distributed in the hope that it will be useful,
+    //  but WITHOUT ANY WARRANTY; without even the implied warranty of
+    //  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+    //  Lesser General Public License for more details.
+    //
+    //  You should have received a copy of the GNU Lesser General Public
+    //  License along with this library; if not, write to the Free Software
+    //  Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
     #include "TM1637.h"
-    #define CLK 2//pins definitions for TM1637 and can be changed to other ports       
+    #define CLK 2 //pueden usarse cualquier pin
     #define DIO 3
     TM1637 tm1637(CLK,DIO);
-    #define ON 1
-    #define OFF 0
-    unsigned char ClockPoint = 1;
     void setup()
     {
       tm1637.init();
@@ -32,16 +43,27 @@ Necesita 4 hilos: V+,GND, Señal y un cuarto que nos permite controlar un led qu
     void loop()
     {
       int8_t NumTab[] = {0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15};//0~9,A,b,C,d,E,F
-      int8_t ListDisp[0];
-      tm1637.display(0,8);
-      tm1637.display(1,8);
-      tm1637.display(2,8);
-      tm1637.display(3,8);
-      tm1637.point(POINT_ON);
-      delay(300);
-      tm1637.clearDisplay();
-      tm1637.point(POINT_OFF);
-      delay(300);
+      int8_t ListDisp[4]; // buffer donde guardaremos lo que se muestra
+      unsigned char i = 0;
+      unsigned char count = 0;
+      delay(150);
+      while(1)
+      {
+        i = count;
+        count ++;
+        if(count == sizeof(NumTab)) count = 0;
+        for(unsigned char BitSelect = 0;BitSelect < 4;BitSelect ++)
+        {
+          ListDisp[BitSelect] = NumTab[i];
+          i ++;
+          if(i == sizeof(NumTab)) i = 0;
+        }
+        tm1637.display(0,ListDisp[0]);
+        tm1637.display(1,ListDisp[1]);
+        tm1637.display(2,ListDisp[2]);
+        tm1637.display(3,ListDisp[3]);
+        delay(300);
+      }
     }
 
 ## Motor
@@ -52,7 +74,7 @@ Control del motor con un potenciómetro
 
 
     //Usaremos un potenciómetro (A0) para controlar la velocidad del motor (PWM10)
-    
+
     const int potPin = A0;  // Analog input A0 para el potenciómetro
     const int pwmPin = 10; // Analog (PWM) output pin Para el motor
 
