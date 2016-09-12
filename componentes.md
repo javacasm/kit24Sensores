@@ -18,6 +18,8 @@ Necesita 4 hilos: V+,GND, Señal y un cuarto que nos permite controlar un led qu
 
 ![montaje](./images/display7seg_IMG_20160912_202357.jpg)
 
+Sólo hay que conectar 2 cables a los pines clock y DIO. Si usamos los pines 2 y 3 como en mi caso hay que tener cuidado de que no estén conectados los jumpers del Sensor Shield.
+
 [Librería sencilla TM1637](./Ejemplos/TM1637.zip)
 
 Sólo permite mostrar los 10 números y las letras a b c d e f y controlar el brillo
