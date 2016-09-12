@@ -86,6 +86,8 @@ Existe otra librería más avanzada: [TM1637Display](./Ejemplos/TM1637Display.zi
     // The amount of time (in milliseconds) between tests
     #define TEST_DELAY   500
 
+    // Existen constantes definidas con cada segmento
+
     const uint8_t SEG_DONE[] = {
     	SEG_B | SEG_C | SEG_D | SEG_E | SEG_G,           // d
     	SEG_A | SEG_B | SEG_C | SEG_D | SEG_E | SEG_F,   // O
@@ -116,7 +118,7 @@ Existe otra librería más avanzada: [TM1637Display](./Ejemplos/TM1637Display.zi
           data[3] = display.encodeDigit(3);
 
           for(k = 3; k >= 0; k--) {
-        	display.setSegments(data, 1, k);
+        	display.setSegments(data, 1, k); // podemos acceder a los datos por puntero
         	delay(TEST_DELAY);
         	}
 
