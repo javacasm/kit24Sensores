@@ -185,8 +185,9 @@ Existe otra librería más avanzada: [TM1637Display](./Ejemplos/TM1637Display.zi
 
 Control del motor con un potenciómetro
 
+Aunque según la especificación el motor funciona a 5v, he tenido problemas consiguiendo que se mueva con este voltaje. He conectado un transformador de 6v  a la alimentación de arduino y funciona perfectamente (con uno de 12v como el del vídeo casi vuela!!!)
 
-    //Usaremos un potenciómetro (A0) para controlar la velocidad del motor (PWM10)
+    // Usaremos un potenciómetro (A0) para controlar la velocidad del motor (PWM10)
 
     const int potPin = A0;  // Analog input A0 para el potenciómetro
     const int pwmPin = 10; // Analog (PWM) output pin Para el motor
