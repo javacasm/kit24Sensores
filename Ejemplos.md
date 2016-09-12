@@ -108,9 +108,27 @@ Es un sensor analógico, y parece que es un LM35
               state=1;
     }
 
+
+## Sensor de gases MQ2
+
+Sensor analógico que nos mide la concentración de gases (LPG, i-butane, propane, methane ,alcohol, Hydrogen, smoke)
+
+    ///Arduino Sample Code
+    void setup()
+    {
+      Serial.begin(9600); //Set serial baud rate to 9600 bps
+    }
+    void loop()
+    {
+    int val;
+    val=analogRead(A2); //Read Gas value from analog 0
+    Serial.println(val);//Print the value to serial port
+    delay(100);
+    }
+
 ## PIR
 
-Sensor de presencia, es un sendor digital
+Sensor de presencia, es un sensor digital
 
 
     // # Description:
