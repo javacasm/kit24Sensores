@@ -18,8 +18,9 @@ Necesita 4 hilos: V+,GND, Señal y un cuarto que nos permite controlar un led qu
 
 ![montaje](./images/display7seg_IMG_20160912_202357.jpg)
 
-[Librería TM1637](./Ejemplos/TM1637.zip)
+[Librería sencilla TM1637](./Ejemplos/TM1637.zip)
 
+Sólo permite mostrar los 10 números y las letras a b c d e f y controlar el brillo
 
 
     //  Author:Frankie.Chu
@@ -36,6 +37,7 @@ Necesita 4 hilos: V+,GND, Señal y un cuarto que nos permite controlar un led qu
     //  You should have received a copy of the GNU Lesser General Public
     //  License along with this library; if not, write to the Free Software
     //  Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+
     #include "TM1637.h"
     #define CLK 2 //pueden usarse cualquier pin
     #define DIO 3
