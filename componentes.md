@@ -14,7 +14,12 @@ Necesita 4 hilos: V+,GND, Señal y un cuarto que nos permite controlar un led qu
 
 ![7-seg](http://www.elecfreaks.com/wiki/images/4/4f/Segment-1.jpg)
 
-([ejemplo](http://elecfreaks.com/estore/download/EF4056-Paintcode.zip))
+([ejemplos de Elekfreaks](http://elecfreaks.com/estore/download/EF4056-Paintcode.zip))
+
+![montaje](./images/display7seg_IMG_20160912_202357.jpg)
+
+[Librería TM1637](./Ejemplos/TM1637.zip)
+
 
 
     //  Author:Frankie.Chu
@@ -66,9 +71,111 @@ Necesita 4 hilos: V+,GND, Señal y un cuarto que nos permite controlar un led qu
       }
     }
 
+Existe otra librería más avanzada: [TM1637Display](./Ejemplos/TM1637Display.zip) que nos permite crear caracteres personalizados usando individualmente cada segmentos
+
+Éste sería un Ejemplo
+
+    #include <TM1637Display.h>
+
+    // Module connection pins (Digital Pins)
+    #define CLK 2
+    #define DIO 3
+
+    // The amount of time (in milliseconds) between tests
+    #define TEST_DELAY   500
+
+    const uint8_t SEG_DONE[] = {
+    	SEG_B | SEG_C | SEG_D | SEG_E | SEG_G,           // d
+    	SEG_A | SEG_B | SEG_C | SEG_D | SEG_E | SEG_F,   // O
+    	SEG_C | SEG_E | SEG_G,                           // n
+    	SEG_A | SEG_D | SEG_E | SEG_F | SEG_G            // E
+    	};
+
+        TM1637Display display(CLK, DIO);
+
+        void setup()
+        {
+        }
+
+        void loop()
+        {
+          int k;
+          uint8_t data[] = { 0xff, 0xff, 0xff, 0xff };
+          display.setBrightness(0x0f);
+
+          // All segments on
+          display.setSegments(data);
+          delay(TEST_DELAY);
+
+          // Selectively set different digits
+          data[0] = 0b01001001;
+          data[1] = display.encodeDigit(1);
+          data[2] = display.encodeDigit(2);
+          data[3] = display.encodeDigit(3);
+
+          for(k = 3; k >= 0; k--) {
+        	display.setSegments(data, 1, k);
+        	delay(TEST_DELAY);
+        	}
+
+          display.setSegments(data+2, 2, 2);
+          delay(TEST_DELAY);
+
+          display.setSegments(data+2, 2, 1);
+          delay(TEST_DELAY);
+
+          display.setSegments(data+1, 3, 1);
+          delay(TEST_DELAY);
+
+
+          // Show decimal numbers with/without leading zeros
+          bool lz = false;
+          for (uint8_t z = 0; z < 2; z++) {
+        	for(k = 0; k < 10000; k += k*4 + 7) {
+        		display.showNumberDec(k, lz);
+        		delay(TEST_DELAY);
+        	}
+        	lz = true;
+          }
+
+          // Show decimal number whose length is smaller than 4
+          for(k = 0; k < 4; k++)
+        	data[k] = 0;
+          display.setSegments(data);
+
+          display.showNumberDec(153, false, 3, 1);
+          delay(TEST_DELAY);
+          display.showNumberDec(22, false, 2, 2);
+          delay(TEST_DELAY);
+          display.showNumberDec(0, true, 1, 3);
+          delay(TEST_DELAY);
+          display.showNumberDec(0, true, 1, 2);
+          delay(TEST_DELAY);
+          display.showNumberDec(0, true, 1, 1);
+          delay(TEST_DELAY);
+          display.showNumberDec(0, true, 1, 0);
+          delay(TEST_DELAY);
+
+          // Brightness Test
+          for(k = 0; k < 4; k++)
+        	data[k] = 0xff;
+          for(k = 0; k < 16; k++) {
+            display.setBrightness(k);
+            display.setSegments(data);
+            delay(TEST_DELAY);
+          }
+
+          // Done!
+          display.setSegments(SEG_DONE);
+
+          while(1);
+        }
+
 ## Motor
 
 ![motor](http://www.elecfreaks.com/estore/media/catalog/product/cache/1/image/800x800/9df78eab33525d08d6e5fb8d27136e95/o/c/octopus-motor-brick1-1.png)
+
+[vídeo](https://youtu.be/LACQjR5eTk0)
 
 Control del motor con un potenciómetro
 
