@@ -6,7 +6,10 @@
 
 Hay que tener cuidado de que el pulsador no dispone de resistencias pullup ni pulldown lo que hace que tengamos que activar las internas de arduino
 
+En las imágenes en la web de Elekfreaks aparecen con pull-up
 
+![puldown](http://www.elecfreaks.com/wiki/images/thumb/9/90/PushButtonR-02.jpg/350px-PushButtonR-02.jpg)
+![esquema](http://www.elecfreaks.com/wiki/images/2/22/PushButtonS-04.jpg)
 
 # Potenciómetro lineal
 
