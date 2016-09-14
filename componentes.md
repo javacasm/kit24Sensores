@@ -2,6 +2,12 @@
 
 [Lista de componentes de elecfreaks](http://www.elecfreaks.com/wiki/index.php?title=Catalog_category)
 
+# Pulsador
+
+Hay que tener cuidado de que el pulsador no dispone de resistencias pullup ni pulldown lo que hace que tengamos que activar las internas de arduino
+
+
+
 # Potenciómetro lineal
 
 Necesita 4 hilos: V+,GND, Señal y un cuarto que nos permite controlar un led que se include en la placa.
