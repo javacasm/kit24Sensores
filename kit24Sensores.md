@@ -3,6 +3,8 @@
 
 ![kit24](./images/IMG_20160531_143103.jpg)
 
+[Video review](https://www.youtube.com/watch?v=AbCZv3wwrck&feature)
+
 
 Un primer vistazo nos permite ver que se trata de un kit serio, nada que ver con los kits con unos pocos leds y pulsadores que solemos ver.
 
