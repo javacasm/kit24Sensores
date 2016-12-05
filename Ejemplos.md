@@ -12,6 +12,12 @@
 
 ## [Uso de pulsador](./Ejemplos/Pulsador/Pulsador.ino)
 
+## [Zumbador](./Ejemplos/Zumbador/Zumbador.ino) ([Star wars theme](./Ejemplos/StarWars/StarWars.ino))
+
+## [Sensor de Humedad de suelo](./Ejemplos/SensorHumedadSuelo/SensorHumedadSuelo.ino)
+
+## [Potenciómetro](./Ejemplos/Potenciometro/Potenciometro.ino)
+
 ## Controlar la intensidad de brillo de un led con un potencimetro (Led Dimmer)
 
 ![IMG_20160702_133714.jpg](./images/IMG_20160702_133714.jpg)
