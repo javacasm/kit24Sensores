@@ -1,5 +1,15 @@
 # Sensores
 
+## [Led](./Ejemplos/Led/Led.ino)
+
+## [Control de nivel de brillo de un Led con PWM](./Ejemplos/Led_PWM/Led_PWM.ino)
+
+## [Sensor de Luz (LDR)](./Ejemplos/LDR/LDR.ino)
+
+## [Sensor de presencia (PIR)](./Ejemplos/PIR/PIR.ino)
+
+## [Control de Relé](Ejemplos/Rele/Rele.ino)
+
 ## Controlar la intensidad de brillo de un led con un potencimetro (Led Dimmer)
 
 ![IMG_20160702_133714.jpg](./images/IMG_20160702_133714.jpg)
