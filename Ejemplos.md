@@ -8,7 +8,9 @@
 
 ## [Sensor de presencia (PIR)](./Ejemplos/PIR/PIR.ino)
 
-## [Control de Relé](Ejemplos/Rele/Rele.ino)
+## [Control de Relé](./Ejemplos/Rele/Rele.ino)
+
+## [Uso de pulsador](./Ejemplos/Pulsador/Pulsador.ino)
 
 ## Controlar la intensidad de brillo de un led con un potencimetro (Led Dimmer)
 
