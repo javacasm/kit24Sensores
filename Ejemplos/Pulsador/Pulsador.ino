@@ -15,9 +15,9 @@ void setup() {
 void loop() {
 
   int valor=digitalRead(pinPulsador);
-  if(valor==LOW){
-    Serial.println("Pulsado!");
-    delay(500);
+  if(valor==HIGH){
+    Serial.println("¡Pulsado!");
+    delay(50);
   }
   
 }
