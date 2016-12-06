@@ -38,7 +38,9 @@
 
 ## [Receptor de infrarrojos](./Ejemplos/ReceptorInfrarrojos/ReceptorInfrarrojos.ino)
 
-## [Acelerómetro](./E)
+## [Acelerómetro](./Ejemplos/Acelerometro/Acelerometro.ino)
+
+## [RTC (ds1307)](./Ejemplos/RTC/RTC.ino)
 
 ## Controlar la intensidad de brillo de un led con un potencimetro (Led Dimmer)
 
