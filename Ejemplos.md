@@ -30,6 +30,14 @@
   * [Inclinómetro digital](./Ejemplos/InclinometroDigital/InclinometroDigital.ino)
   * [Inclinómetro analógico](./Ejemplos/InclinometroAnalogico/InclinometroAnalogico.ino)
 
+## [Sensor de vibraciones](./Ejemplos/SensorVibraciones/SensorVibraciones.ino)
+
+## [Sensor de lluvia](./Ejemplos/SensorLluvia/SensorLluvia.ino)
+
+## [Sensor de temeratura (LM35)](./Ejemplos/SensorTemperatura/SensorTemperatura.ino)
+
+## [Receptor de infrarrojos](./Ejemplos/ReceptorInfrarrojos/ReceptorInfrarrojos.ino)
+
 ## Controlar la intensidad de brillo de un led con un potencimetro (Led Dimmer)
 
 ![IMG_20160702_133714.jpg](./images/IMG_20160702_133714.jpg)
