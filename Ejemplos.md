@@ -47,3 +47,5 @@
   * [Avanzado](./Ejemplos/_7-SegmentosAvanzado/_7-SegmentosAvanzado.ino)
 
 ## [Encoder](./Ejemplos/Encoder/Encoder.ino )
+
+## [Motor](./Ejemplos/Motor/Motor.ino)
