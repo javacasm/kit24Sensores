@@ -24,6 +24,12 @@
 
 ## [Sensor de gases](./Ejemplos/SensorGas/SensorGas.ino)
 
+## [Potenciómetro lineal con LED](./Ejemplos/PotenciometroLineal/PotenciometroLineal.ino)
+
+## [Inclinómetro]
+  * [Inclinómetro digital](./Ejemplos/InclinometroDigital/InclinometroDigital.ino)
+  * [Inclinómetro analógico](./Ejemplos/InclinometroAnalogico/InclinometroAnalogico.ino)
+
 ## Controlar la intensidad de brillo de un led con un potencimetro (Led Dimmer)
 
 ![IMG_20160702_133714.jpg](./images/IMG_20160702_133714.jpg)
