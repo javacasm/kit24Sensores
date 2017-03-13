@@ -18,6 +18,6 @@ void loop() {
   float gCelsius = mVoltios / 10; 
   Serial.print(gCelsius);
   Serial.println(" C");
-  delay(500);
+  delay(50);
   
 }
