@@ -221,28 +221,29 @@ Aunque según la especificación el motor funciona a 5v, he tenido problemas con
       // esperamos 2 milliseconds
       delay(2);
     }
-    ## Sensor de inclinación
 
-    Es analógico
+## Sensor de inclinación
 
-    ## Sensor de humo (OBMQ05)
+Es analógico
 
-    [DataSheet](http://elecfreaks.com/estore/download/EF04029-MQ5.pdf)
-    [Schematic](http://elecfreaks.com/estore/download/EF04029-GAS.pdf)
-    [wiki](http://www.elecfreaks.com/wiki/index.php?title=Octopus_Smoke_Sensor_MQ-2/MQ-5_Brick)
+## Sensor de humo (OBMQ05)
 
-    Es analógico
+[DataSheet](http://elecfreaks.com/estore/download/EF04029-MQ5.pdf)
+[Schematic](http://elecfreaks.com/estore/download/EF04029-GAS.pdf)
+[wiki](http://www.elecfreaks.com/wiki/index.php?title=Octopus_Smoke_Sensor_MQ-2/MQ-5_Brick)
+
+Es analógico
 
 
 
-    # Temperatura
+# Temperatura
 
-    Es un sensor analógico, y parece que es un LM35
+Es un sensor analógico, y parece que es un LM35
 
-    # Encoder
+# Encoder
 
-    [Tutorial](http://bildr.org/2012/08/rotary-encoder-arduino/)
-    [About rotary-encoders](http://playground.arduino.cc/Main/RotaryEncoders)
+[Tutorial](http://bildr.org/2012/08/rotary-encoder-arduino/)
+[About rotary-encoders](http://playground.arduino.cc/Main/RotaryEncoders)
 
         //(C)2011 ElecFreaks
         // web: http://www.elecfreaks.com
@@ -303,9 +304,9 @@ Aunque según la especificación el motor funciona a 5v, he tenido problemas con
                   state=1;
         }
 
-    ## Sensor de sonido
+## Sensor de sonido
 
-    Sensor de sonido que compara el nivel de ruido con el potencimetro
+Sensor de sonido que compara el nivel de ruido con el potencimetro
 
         const int SensorPin = 9;     // the number of the Sensor pin
         const int ledPin = 13;      // the number of the led pin
@@ -338,9 +339,9 @@ Aunque según la especificación el motor funciona a 5v, he tenido problemas con
           }
         }
 
-    ## Sensor de vibraciones
+## Sensor de vibraciones
 
-    Sensor analógico que mide vibraciones
+Sensor analógico que mide vibraciones
 
         int inputPin = A0;               
 
@@ -355,9 +356,9 @@ Aunque según la especificación el motor funciona a 5v, he tenido problemas con
         }
 
 
-    ## Sensor de gases MQ2
+## Sensor de gases MQ2
 
-    Sensor analógico que nos mide la concentración de gases (LPG, i-butane, propane, methane ,alcohol, Hydrogen, smoke)
+Sensor analógico que nos mide la concentración de gases (LPG, i-butane, propane, methane ,alcohol, Hydrogen, smoke)
 
         ///Arduino Sample Code
         void setup()
@@ -372,9 +373,9 @@ Aunque según la especificación el motor funciona a 5v, he tenido problemas con
         delay(100);
         }
 
-    ## PIR
+## PIR
 
-    Sensor de presencia, es un sensor digital
+Sensor de presencia, es un sensor digital
 
 
         // # Description:
@@ -404,14 +405,14 @@ Aunque según la especificación el motor funciona a 5v, he tenido problemas con
           delay(500);
         }
 
-    ## Acelerómetro
+## Acelerómetro
 
-    Un acelerómetro es capaz de leer datos de posición (hay diferentes formas de hacerlo)
+Un acelerómetro es capaz de leer datos de posición (hay diferentes formas de hacerlo)
 
-    ![1](http://www.elecfreaks.com/wiki/images/thumb/5/5e/OCTOPUS_HMC5883L_A.JPG/400px-OCTOPUS_HMC5883L_A.JPG)
+![1](http://www.elecfreaks.com/wiki/images/thumb/5/5e/OCTOPUS_HMC5883L_A.JPG/400px-OCTOPUS_HMC5883L_A.JPG)
 
-    Cada modelo se mide de forma distinta, veamos el [HMC5883L](http://www.elecfreaks.com/wiki/index.php?title=Octopus_3-Axis_Digital_Compass_Sensor)
-    Leeremos los valores y lo convertimos a grados de colores RGB que mostraremos en un led RGB conectado a los pines 10,11 y 12
+Cada modelo se mide de forma distinta, veamos el [HMC5883L](http://www.elecfreaks.com/wiki/index.php?title=Octopus_3-Axis_Digital_Compass_Sensor)
+Leeremos los valores y lo convertimos a grados de colores RGB que mostraremos en un led RGB conectado a los pines 10,11 y 12
 
             // From http://www.elecfreaks.com/wiki/index.php?title=Octopus_3-Axis_Digital_Compass_Sensor
             #include <Wire.h> //I2C Arduino Library
@@ -472,13 +473,13 @@ Aunque según la especificación el motor funciona a 5v, he tenido problemas con
 
               delay(250);
             }
-    ## Pulsador y detector de final de carrera
+## Pulsador y detector de final de carrera
 
-    ![ima](./images/Control_rele_pulsador_fincarreraIMG_20160914_135248.jpg)
+![ima](./images/Control_rele_pulsador_fincarreraIMG_20160914_135248.jpg)
 
-    Hay que tener cuidado de que el pulsador no dispone de resistencias pullup ni pulldown lo que hace que tengamos que activar las internas de arduino
+Hay que tener cuidado de que el pulsador no dispone de resistencias pullup ni pulldown lo que hace que tengamos que activar las internas de arduino
 
-    Al usar las pull-up internas nos encontramos con que el valor por defecto es High y al pulsar down!!!
+Al usar las pull-up internas nos encontramos con que el valor por defecto es High y al pulsar down!!!
 
         int boton=12;
         int detector=11;
@@ -522,14 +523,14 @@ Aunque según la especificación el motor funciona a 5v, he tenido problemas con
         }
 
 
-        # Ejemplos avanzados
+# Ejemplos avanzados
 
 
-        ## Controlar la intensidad de brillo de un led con un potencimetro (Led Dimmer)
+## Controlar la intensidad de brillo de un led con un potencimetro (Led Dimmer)
 
-        ![IMG_20160702_133714.jpg](./images/IMG_20160702_133714.jpg)
+![IMG_20160702_133714.jpg](./images/IMG_20160702_133714.jpg)
 
-        Conectamos el potenciómetro en A0 (El potenciómetro lineal usa un cable de 4 hilos, de los que sólo usaremos 3, el cuarto es un led que podemos controlar, pero usaremos un led externo) y el led en el pin 11
+Conectamos el potenciómetro en A0 (El potenciómetro lineal usa un cable de 4 hilos, de los que sólo usaremos 3, el cuarto es un led que podemos controlar, pero usaremos un led externo) y el led en el pin 11
 
 
             // Encendemos con mayor o menor intensidad un led en función del valor de un potenciómetro lineal
@@ -549,4 +550,4 @@ Aunque según la especificación el motor funciona a 5v, he tenido problemas con
               analogWrite(pinLed,valorPWM);
             }
 
-        [Ejemplo](./Ejemplos/LedDimmer/LedDimmer.ino)
+[Ejemplo](./Ejemplos/LedDimmer/LedDimmer.ino)
